@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Card.css'
 export default function Card(props) {
-    const product = {}
+    const {product} = props
     return (
         <div className="card-container">
             <div className="image-container">
@@ -9,9 +9,13 @@ export default function Card(props) {
             </div>
             <div className='card-content'>
                 <div className='card-title'>
-                    <h3>{product.title}</h3>
+                    <h3>{product.name}</h3>
                 </div>
                 <div className='card-body'>
+                    <p className='mb-0 d-flex align-items-center'>
+                        Type: 
+                    <span className='px-2 fw-bold'> {product.type}</span>
+                    </p>
                     <p>{product.description}
                     </p>
                 </div>
