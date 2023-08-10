@@ -4,7 +4,6 @@ import Logo from "../assets/image/—Pngtree—potted watercolor cactus flowerin
 export default function Feedback() {
   return (
     <>
-      <h1>----------------------------------------------------</h1>
       <div className="container">
         <div className="row">
           {/* Ảnh */}

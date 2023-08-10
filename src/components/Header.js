@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
+import "../assets/navlink.css";
 import Logo from "../assets/image/—Pngtree—planting trees_1014361.png";
 export default function Header() {
   const transparentNavbar = {
@@ -24,7 +25,7 @@ export default function Header() {
         <div className="container">
           <img src={Logo} className="" width={80} />
 
-          <NavLink to="/" className="navbar-brand fs-1" href="#">
+          <NavLink to={"/"} className="navbar-brand fs-1" href="#">
             Plant
           </NavLink>
 
@@ -43,16 +44,16 @@ export default function Header() {
           <div className="collapse navbar-collapse fs-4" id="navbarNav">
             <ul className="navbar-nav mx-auto gap-5">
               <li className="nav-item">
-                <p className="nav-p" href="#">
+                <p className="nav-p nav-link" href="#">
                   Shop
                 </p>
               </li>
               <li className="nav-item dropdown">
                 <p
-                  className=" dropdown-toggle"
+                  className=" dropdown-toggle nav-link"
                   href="#"
                   role="button"
-                  data-bs-toggle="dropdown"
+                  data-bs-toggle="dropdown "
                 >
                   Handbook
                 </p>
@@ -80,14 +81,14 @@ export default function Header() {
                 </ul>
               </li>
               <li className="nav-item">
-                <NavLink  className="nav-p" href="#">
+                <NavLink to={"/contact"} className="nav-p nav-link" href="#">
                   Contact
                 </NavLink>
               </li>
               <li className="nav-item">
-                <p className="nav-p" href="#">
+                <NavLink to={"/feedback"} className="nav-p nav-link" href="#">
                   Feedback
-                </p>
+                </NavLink>
               </li>
             </ul>
           </div>
