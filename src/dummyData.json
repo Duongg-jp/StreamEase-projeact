@@ -1,0 +1,17 @@
+{
+    
+"Data": [
+    {
+        
+			"id": 1,
+			"name": "Hoa hồng",
+			"scientName": "Rose",
+			"price": 50.0,
+			"type": "indoor",
+			"description": "loremmmmmmmmmmmmmmmm",
+			"country":"",
+            "imageUrl":"https://th.bing.com/th/id/OIP.WegkI2UvWVtCred1Y5-3kAHaF_?pid=ImgDet&rs=1"
+		
+    }
+]
+}
