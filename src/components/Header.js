@@ -1,10 +1,10 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Logo from "../assets/image/—Pngtree—planting trees_1014361.png";
 export default function Header() {
-	const transparentNavbar = {
-		backgroundColor: "rgba(0, 0, 0, 0)",
-		backdropFilter: "blur(10px)",
-	  };
+  const transparentNavbar = {
+    backgroundColor: "rgba(0, 0, 0, 0)",
+    backdropFilter: "blur(10px)",
+  };
   const navItem = {
     textDecoration: "none",
     color: "#000",
@@ -24,9 +24,9 @@ export default function Header() {
         <div className="container">
           <img src={Logo} className="" width={80} />
 
-          <p className="navbar-brand fs-1" href="#">
+          <NavLink to="/" className="navbar-brand fs-1" href="#">
             Plant
-          </p>
+          </NavLink>
 
           <button
             className="navbar-toggler"
@@ -80,9 +80,9 @@ export default function Header() {
                 </ul>
               </li>
               <li className="nav-item">
-                <p className="nav-p" href="#">
+                <NavLink  className="nav-p" href="#">
                   Contact
-                </p>
+                </NavLink>
               </li>
               <li className="nav-item">
                 <p className="nav-p" href="#">
