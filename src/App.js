@@ -1,10 +1,16 @@
 import "./App.css";
-import HomePage from "./components/home-page";
+import AppRoutes from "./routes/index";
+import Header from "./components/Header";
+import HomePage from "./page/home-page";
 
 function App() {
   return (
     <div className="App">
-      <HomePage />
+      <div>
+        <Header />
+      </div>
+
+      <AppRoutes />
     </div>
   );
 }
