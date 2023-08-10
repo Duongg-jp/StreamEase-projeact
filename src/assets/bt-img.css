@@ -1,0 +1,24 @@
+.custom-btn {
+    background: transparent;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    color: #fff;
+    padding: auto;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .custom-btn-border {
+    border-color: #fff;
+  }
+  
+  .custom-btn-border:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: scale(1.05);
+  }
+  
