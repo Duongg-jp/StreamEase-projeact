@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import HomePage from "../page/home-page";
 import ShoppPage from "../page/shop";
-import Contact from "../components/contact";
-import Feedback from "../components/feedback";
+import Contact from "../page/contact";
+import Feedback from "../page/feedback";
 
 export default function AppRoutes() {
   return (
