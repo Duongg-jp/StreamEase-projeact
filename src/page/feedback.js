@@ -9,31 +9,31 @@ export default function FeedbackForm() {
       <div className="row mx-0">
         <div className="col-12 col-md-6">
           <form
-            class="row mx-auto g-3 container"
+            className="row mx-auto g-3 container"
             style={{ marginTop: "120px" }}
           >
-            <div class="col-12">
-              <label for="inputEmail4" class="form-label text-white"></label>
+            <div className="col-12">
+              <label for="inputEmail4" className="form-label text-white"></label>
               <input
                 required
                 type="email"
-                class="form-control"
+                className="form-control"
                 id="inputEmail4"
                 placeholder="Email"
               />
             </div>
-            <div class="col-12">
+            <div className="col-12">
               <textarea
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="autoSizingInput"
                 rows={4}
                 placeholder="Leave your message here"
               ></textarea>
             </div>
 
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary d-block w-100">
+            <div className="col-12">
+              <button type="submit" className="btn btn-primary d-block w-100">
                 Submit
               </button>
             </div>

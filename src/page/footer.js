@@ -26,11 +26,12 @@ export default function Footer() {
         </div>
 
         <div className=" col-4">
-          <img src={Logo} className="" width={50} />
-
-          <p to="/" className="navbar-brand  fs-1" href="#">
-            Plant
-          </p>
+          <div className="d-flex justify-content-center">
+            <img src={Logo} className="" width={50} height={50} />
+            <p to="/" className="navbar-brand  fs-1" href="#">
+              Plant
+            </p>
+          </div>
           <img
             width={100}
             src="https://vairen.aien.vn/images/aien-imgs/huongdan.png"
