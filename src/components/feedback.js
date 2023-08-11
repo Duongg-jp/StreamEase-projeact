@@ -1,73 +1,45 @@
-import React from "react";
-import Logo from "../assets/image/—Pngtree—potted watercolor cactus flowering plant_6417442.png";
+import React, { useState } from "react";
 
-export default function Feedback() {
+export default function FeedbackForm() {
   return (
-    <>
-      <h1>----------------------------------------------------</h1>
-      <div className="container">
-        <div className="row">
-          {/* Ảnh */}
-          <div className="col-md-6">
-            <img src={Logo} alt="Feedback" className="img-fluid" />
+    <div className="d-flex justify-content-center align-items-center vh-100">
+      <div className="text-center">
+        <h1>Please give us feedback</h1>
+        <br />
+        <br />
+        <br />
+        <form class="row row-cols-lg-auto g-3 container">
+          <label for="inputEmail4" class="form-label">
+            Email
+          </label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Email"/>
+
+          <div class="col-12">
+            <input
+              type="text"
+              class="form-control"
+              id="autoSizingInput"
+              placeholder="Feelback"
+            />
           </div>
-          {/* Phần thông tin phản hồi */}
-          <div className="col-md-6">
-            <div className="row">
-              <div className="col-md-6 mb-4">
-                <div className="card text-white bg-success">
-                  <div className="card-header">Header 1</div>
-                  <div className="card-body">
-                    <h5 className="card-title">Success Card 1</h5>
-                    <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6 mb-4">
-                <div className="card text-white bg-success">
-                  <div className="card-header">Header 2</div>
-                  <div className="card-body">
-                    <h5 className="card-title">Success Card 2</h5>
-                    <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6 mb-4">
-                <div className="card text-white bg-success">
-                  <div className="card-header">Header 3</div>
-                  <div className="card-body">
-                    <h5 className="card-title">Success Card 3</h5>
-                    <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6 mb-4">
-                <div className="card text-white bg-success">
-                  <div className="card-header">Header 4</div>
-                  <div className="card-body">
-                    <h5 className="card-title">Success Card 4</h5>
-                    <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
+
+          <div class="col-12">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="inlineFormCheck"
+              />
             </div>
           </div>
-        </div>
+
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">
+              Submit
+            </button>
+          </div>
+        </form>
       </div>
-      
-      
-    </>
+    </div>
   );
 }
