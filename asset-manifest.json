@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/StreamEase-projeact/static/css/main.992b09ed.css",
+    "main.js": "/StreamEase-projeact/static/js/main.39e97a36.js",
+    "static/js/787.7ac2fa79.chunk.js": "/StreamEase-projeact/static/js/787.7ac2fa79.chunk.js",
+    "static/media/rose.png": "/StreamEase-projeact/static/media/rose.0314b0bdcdb017258f55.png",
+    "static/media/tho.png": "/StreamEase-projeact/static/media/tho.d319f2b1b9c538c5c184.png",
+    "static/media/—Pngtree—potted watercolor cactus flowering plant_6417442.png": "/StreamEase-projeact/static/media/—Pngtree—potted watercolor cactus flowering plant_6417442.66db0bcab0797b7452ab.png",
+    "static/media/—Pngtree—planting trees_1014361.png": "/StreamEase-projeact/static/media/—Pngtree—planting trees_1014361.dd51ce76bf566d499ff2.png",
+    "index.html": "/StreamEase-projeact/index.html",
+    "main.992b09ed.css.map": "/StreamEase-projeact/static/css/main.992b09ed.css.map",
+    "main.39e97a36.js.map": "/StreamEase-projeact/static/js/main.39e97a36.js.map",
+    "787.7ac2fa79.chunk.js.map": "/StreamEase-projeact/static/js/787.7ac2fa79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.992b09ed.css",
+    "static/js/main.39e97a36.js"
+  ]
+}
