@@ -1,0 +1,54 @@
+.card-container {
+    width: 100%;
+    overflow: hidden;
+    transition: 0.3s;
+    margin-bottom: 50px;
+  }
+  
+  .image-container {
+    overflow: hidden;
+    height: 250px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.1);
+  }
+  
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .left-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 2rem;
+  }
+  
+  .right-button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .contact-img{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+  }
+  

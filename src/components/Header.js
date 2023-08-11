@@ -1,20 +1,17 @@
 import { Link, NavLink } from "react-router-dom";
 import "../assets/navlink.css";
 import Logo from "../assets/image/—Pngtree—planting trees_1014361.png";
+import "../assets/bt-img.css"
+import "./Header.css"
 export default function Header() {
   const transparentNavbar = {
     backgroundColor: "rgba(0, 0, 0, 0)",
     backdropFilter: "blur(10px)",
   };
-  const navItem = {
-    textDecoration: "none",
-    color: "#000",
-    fontSize: "18px",
-    display: "block",
-    padding: "6px 12px",
-    letterSpacing: "1px",
-    // textTransform: 'uppercase',
-  };
+  const linkWhite = {
+    color: 'white',
+    textDecoration: 'none'
+  }
 
   return (
     <div className="" style={{ height: "100px" }}>
@@ -25,7 +22,7 @@ export default function Header() {
         <div className="container">
           <img src={Logo} className="" width={80} />
 
-          <NavLink to={"/"} className="navbar-brand fs-1" href="#">
+          <NavLink to="/" className="navbar-brand  fs-1" href="#">
             Plant
           </NavLink>
 
@@ -43,65 +40,54 @@ export default function Header() {
 
           <div className="collapse navbar-collapse fs-4" id="navbarNav">
             <ul className="navbar-nav mx-auto gap-5">
-              <li className="nav-item">
-                <p className="nav-p nav-link" href="#">
-                  Shop
-                </p>
-              </li>
-              <li className="nav-item dropdown">
-                <p
-                  className=" dropdown-toggle nav-link"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown "
+              <li className="nav-item link-white nav-link-effect">
+                <NavLink
+                style={linkWhite}
+                  to="/shop"
+                  className={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? "active" : ""
+                  }
                 >
-                  Handbook
-                </p>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Knowledge
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Technique
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Experience
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Design ideas for bonsai
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li className="nav-item">
-                <NavLink to={"/contact"} className="nav-p nav-link" href="#">
-                  Contact
+                  Shop
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink to={"/feedback"} className="nav-p nav-link" href="#">
+              
+              <li className="nav-item nav-link-effect">
+                <NavLink
+                style={linkWhite}
+                  to="/feedback"
+                  className={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? "active" : ""
+                  }
+                >
                   Feedback
                 </NavLink>
+                
+              </li>
+              <li className="nav-item nav-link-effect">
+                <NavLink
+                style={linkWhite}
+                  to="/contact"
+                  className={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? "active" : ""
+                  }
+                >
+                  Contact
+                </NavLink>
+                
               </li>
             </ul>
           </div>
 
-          <div className="d-flex">
-            <form className="d-flex" role="search">
+          <div className="d-flex ">
+            <form class="d-flex">
               <input
-                className="form-control me-2"
+                class="form-control me-2"
                 type="search"
-                placeholder="You want to find a tree?"
+                placeholder="Search"
                 aria-label="Search"
               />
-              <button className="btn btn-outline-success" type="submit">
+              <button class=" btn btn-light" type="submit">
                 Search
               </button>
             </form>

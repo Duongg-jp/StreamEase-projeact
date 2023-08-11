@@ -1,0 +1,14 @@
+body {
+    background-image: url("https://i.pinimg.com/564x/4f/4b/b0/4f4bb0ed24ba7e1efa9e66dbfcf93a38.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+@media (max-width: 767px) {}
+
+@media (min-width: 768px) and (max-width: 1023px) {}
+
+@media (min-width: 1024px) {}
+
+  

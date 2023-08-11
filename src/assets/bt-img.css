@@ -3,7 +3,7 @@
     border: 2px solid transparent;
     border-radius: 15px;
     color: #fff;
-    padding: auto;
+    padding: 10px;
     margin: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -21,4 +21,3 @@
     background: rgba(255, 255, 255, 0.1);
     transform: scale(1.05);
   }
-  

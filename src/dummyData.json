@@ -1,0 +1,123 @@
+{
+    
+"listData": [
+    {
+			"id": 1,
+			"name": "Hoa hồng",
+			"price": 50.0,
+			"type": "Rose",
+			"description": "He accidentally stepped on a wild rose Flowers are only sad but ...",
+            "imageUrl":"https://th.bing.com/th/id/OIP.WegkI2UvWVtCred1Y5-3kAHaF_?pid=ImgDet&rs=1"
+    },
+    {
+			"id": 2,
+			"name": "Hoa Mai",
+			"scientName": "",
+			"price": 90.0,
+			"type": "Hoa mai",
+			"description": "Where do birds go, phoenixes? Let the owl perch on the apricot branch",
+			"country":"",
+            "imageUrl":"https://images2.thanhnien.vn/Uploaded/datdt/2023_01_21/07d7f040b96e62303b7f-9255.jpg"
+    },
+    {
+			"id": 3,
+			"name": "Sứ Quân Tử",
+			"scientName": "",
+			"price": 70.0,
+			"type": "Military Soldiers",
+			"description": "Use the star color gentleman earnestly The sad wind can't fade away",
+			"country":"",
+            "imageUrl":"https://www.cayxanhdep.vn/uploads/products/2a_Trang_Leo_Su_Quan_Tu.jpg"
+    },
+    {
+			"id": 4,
+			"name": "Bông Giấy",
+			"scientName": "Confetti",
+			"price": 60.0,
+			"type": "Confetti",
+			"description": "With enough sunshine, flowers will bloom",
+			"country":"",
+            "imageUrl":"https://www.cayxanhdep.vn/uploads/products/2_Cay_Bong_Giay.jpg"
+    },
+    {
+			"id": 5,
+			"name": "Thằn Lằn",
+			"scientName": "",
+			"price": 100.0,
+			"type": "the lizard",
+			"description": "With enough sunshine, flowers will bloom",
+			"country":"",
+            "imageUrl":"https://www.cayxanhdep.vn/uploads/products/1_Cay_Than_Lan.jpg"
+    },
+    {
+			"id": 6,
+			"name": "Thằn lằn Thái",
+			"scientName": "Thai Lizard",
+			"price": 40.0,
+			"type": "Thai Lizard",
+			"description": "With enough sunshine, flowers will bloom",
+			"country":"",
+            "imageUrl":"https://www.cayxanhdep.vn/uploads/products/1_Goc_Anh_Cay_Thang_Lan_Thai.jpg"
+    },
+    {
+			"id": 7,
+			"name": "Cát Đằng",
+			"scientName": "",
+			"price": 200.0,
+			"type": "Cat Dang",
+			"description": "The fragile purple wisteria, The night silently blooms with sadness!",
+			"country":"",
+            "imageUrl":"https://www.cayxanhdep.vn/uploads/products/1_Cay_Cat_Dang.jpg"
+    },
+    {
+			"id": 8,
+			"name": "Hồng Anh",
+			"scientName": "",
+			"price": 100.0,
+			"type": "Hong Anh",
+			"description": "The fiery purple color of the flower is considered a symbol of faith",
+			"country":"",
+            "imageUrl":"https://www.cayxanhdep.vn/uploads/products/2_Cay_Hong_Anh.jpg"
+    },
+    {
+			"id": 9,
+			"name": "Huỳnh Anh Cam",
+			"scientName": "",
+			"price": 80.0,
+			"type": "Huynh Anh Cam",
+			"description": "Orange-flowered canary tree, also known as orange-flowered ... ",
+			"country":"",
+            "imageUrl":"https://www.cayxanhdep.vn/uploads/products/2_Huynh_Anh_Cam.jpg"
+    },
+    {
+			"id": 10,
+			"name": "Ngọc Nữ",
+			"scientName": "",
+			"price": 59.0,
+			"type": "Ngoc Nu",
+			"description": "Enough sunshine, flowers will bloom, enough wind to turn the wheels",
+			"country":"",
+            "imageUrl":"https://www.cayxanhdep.vn/uploads/products/1_Cay_Ngoc_Nu.jpg"
+    },
+    {
+			"id": 11,
+			"name": "Tóc Tiên",
+			"scientName": "",
+			"price": 10.0,
+			"type": "Toc Tien",
+			"description": "Fairy hair flowers not only bring a gentle and simple beauty.. ",
+			"country":"",
+            "imageUrl":"https://www.cayxanhdep.vn/uploads/products/1_Goc_Anh_Hoa_Toc_Tien.jpg"
+    },
+    {
+			"id": 12,
+			"name": "Tùng Rêu",
+			"scientName": "",
+			"price": 45.0,
+			"type": "Tung Reu",
+			"description": "Common name: coral moss pine tree; coral pine tree ; Da Lat moss...",
+			"country":"",
+            "imageUrl":"https://www.cayxanhdep.vn/uploads/products/1_Tung_Reu.jpg"
+    }
+]
+}
