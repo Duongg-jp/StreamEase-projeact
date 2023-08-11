@@ -1,0 +1,37 @@
+Project Report:
+
+  Website Selling Bonsai
+
+1. Introduction
+The project "Site of Bonsai" is a project to develop a website for the sale of bonsai and related products. The goal of the project is to create an online platform for users to easily search, choose to buy and order ornamental plants.
+
+2. Project Scope
+- Website development with user-friendly interface.
+- Display a list of ornamental plants, product details and prices.
+- Manage orders and customer information.
+- Provides the ability to search for products and filter by tree type, price, and other attributes.
+
+3. Development Process
+3.1 Ideation and Design
+- Collect requests from customers.
+- Identify the main features of the website.
+- User interface design and shopping experience.
+3.2 Development
+- Build a database to store information about products, orders and customers.
+- Develop product search, filter and display functions.
+- Build an interface to manage orders and customer information.
+3.3 Testing and Deployment
+- Test website features and interface on various devices and browsers.
+- Deploy website directly on server or cloud service platform.
+
+4. Results Achieved
+- Successfully build a website with attractive interface and full functionality.
+- Provide users with the ability to search and shop for ornamental plants easily.
+- Manage order and customer information effectively.
+
+5. Learning and Difficulty
+- Fix browser and device compatibility issues.
+- Gain a better understanding of the website development process and database management.
+
+6. Conclusion
+The project "Website for Selling Bonsai" has achieved its goal of creating a complete and useful website for online bonsai shopping. Over the course of our development, we have learned and applied many new knowledge and skills in website development and data management. The project has brought value to both the development team and the customer.
