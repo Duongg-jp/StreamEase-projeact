@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 import Logo from "../assets/image/—Pngtree—planting trees_1014361.png";
 import "../assets/bt-img.css";
 import "./Header.css";

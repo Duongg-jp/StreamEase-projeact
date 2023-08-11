@@ -2,8 +2,8 @@ import "./App.css";
 import AppRoutes from "./routes/index";
 import Header from "./components/Header";
 import HomePage from "./page/home-page";
-import "./body.css"
-
+import "./body.css";
+import Footer from "./page/footer";
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       </div>
 
       <AppRoutes />
+      <Footer />
     </div>
   );
 }

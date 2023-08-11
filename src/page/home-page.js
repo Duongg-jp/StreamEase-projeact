@@ -5,7 +5,7 @@ import Rose from "../assets/image/rose.png";
 import Tho from "../assets/image/tho.png";
 
 import ImgMain from "../assets/image/—Pngtree—potted watercolor cactus flowering plant_6417442.png";
-
+import Footer from "./footer";
 
 export default function HomePage() {
   const imageSection = {
@@ -14,8 +14,6 @@ export default function HomePage() {
     backgroundPosition: "center",
     height: "100vh",
   };
-
-  
 
   return (
     <div>
@@ -27,7 +25,6 @@ export default function HomePage() {
               <div className="collum">
                 <img src={ImgMain} className="" width={500} />
               </div>
-             
             </div>
           </div>
 
@@ -40,10 +37,8 @@ export default function HomePage() {
             </p>
             <div className="d-flex flex-column align-items-center">
               <div className="d-flex flex-row">
-
-              <Link
-               className="btn btn-primary ms-5 ">Your cart</Link>
-              <button className="btn btn-primary ms-5">More Details</button>
+                <Link className="btn btn-primary ms-5 ">Your cart</Link>
+                <button className="btn btn-primary ms-5">More Details</button>
               </div>
               <div className="mt-5 d-flex gap-5">
                 <img
@@ -62,6 +57,38 @@ export default function HomePage() {
             </div>
           </div>
         </div>
+      </div>
+
+
+      <div className="height-content-bot">
+
+      <div  className="container ">
+        <div  className="d-fex row justify-content-center ">
+        <div className="  col-3 mt-5 text-white ">
+          <h4>PTREES</h4>
+          <p>
+            Ornamental plants (or ornamental plants) are some types of plants
+            that are meticulously cared for, planted and shaped, often used as
+            decorations or a detail in feng shui.
+          </p>
+        </div>
+        <div className="col-3 mt-5 text-white">
+          <h4>DESK TREE</h4>
+          <p>
+            There are many types of desktop plants that have the ability to
+            purify the air, absorb dust or repel insects, mosquitoes ... very
+            effectively.
+          </p>
+        </div>
+        <div className="col-3 mt-5 text-white">
+          <h4>AIR TREE</h4>
+          <p>
+            Is a plant that lives in the air, exists and grows without soil, but
+            only needs steam, air and a little dew of the early morning.
+          </p>
+        </div>
+        </div>
+      </div>
       </div>
     </div>
   );

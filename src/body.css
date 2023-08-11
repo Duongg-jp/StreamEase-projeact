@@ -5,6 +5,20 @@ body {
     background-attachment: fixed;
   }
 
+
+.height-content-bot{
+  height: 400px;
+  background-color: rgba(49, 48, 48, 0.532);
+}
+
+.height-footer{
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 100px;
+
+}
+
+
 @media (max-width: 767px) {}
 
 @media (min-width: 768px) and (max-width: 1023px) {}
